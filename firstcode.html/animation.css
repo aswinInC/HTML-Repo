@@ -1,0 +1,34 @@
+body{
+    margin: opx;
+}
+.kishor{
+    display: flex;
+
+
+}
+.box{
+    flex: 1;
+    animation-name: aswin;
+    animation-duration: 1s;
+}
+@keyframes aswin{
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(20px);
+    }
+}
+.aswin{
+    flex: 1;
+    animation-name: kishore;
+    animation-duration: 1s;
+}
+@keyframes kishore{
+from{
+    transform: translateX(+20px);
+}
+to{
+    transform: translateX(-20px);
+}
+}

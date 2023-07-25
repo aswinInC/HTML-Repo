@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student</title>
+<link rel="stylesheet" type="text/css" href="student.css">
+</head>
+<body>
+<form>
+<h1> Student Registration Form</h1>
+<table cellpadding="5">
+<tr>
+<td><label>Name :</label></td>
+<td><input type="text" placeholder="Enter Full Name"></td>
+</tr>
+<tr>
+<td><label>Father's Name :</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Mother's Name :</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Phone Number :</label></td>
+<td><input type="text" size="13" pattern="[0-9]{10}" placeholder="1234567890"></td>
+</tr>
+<tr>
+<td><label>Email :</label></td>
+<td><input type="email" placeholder="sample@gmail.com"></td>
+</tr>
+<tr>
+<td><label>Gender :</label></td>
+<td><input type="radio" name="gen">Male
+<input type="radio" name="gen">Female
+<input type="radio" name="gen">Other</td>
+</tr>
+<tr>
+<td><label>Date Of Birth :</label></td>
+<td><input type="text" size="3">-<input type="text" size="3">-<input type="text" size="3">(dd-mm-yyyy)</td>
+</tr>
+<tr>
+<td><label>Address :</label></td>
+<td><input type="text" size="40" placeholder="Street- House- Road:-"></td>
+</tr>
+<tr>
+<td><label>Blood Group :</label></td>
+<td><select>
+<option>Select</option>
+</select></td>
+</tr>
+<tr>
+<td><label>Department :</label></td>
+<td><input type="radio" name="dep">CSE
+<input type="radio" name="dep">EEE
+<input type="radio" name="dep">BBA</td>
+</tr>
+<tr>
+<td><label>Select Game</label></td>
+<td>
+<input type="checkbox">C
+<input type="checkbox">C++
+<input type="checkbox">Java
+<input type="checkbox">AI
+<input type="checkbox">Machine Learning
+<input type="checkbox">Robotics
+</td>
+</tr>
+<tr>
+<td><label>Photo :</label></td>
+<td><input type="file"></td>
+</tr>
+</table><br><br>
+<input type="Submit"><input type="reset">
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right bottom,yellow,orangered,red);
+    height: 100vh;
+}
+.one{
+    margin-left:300px;
+    background-color: white;
+    width: 800px;
+    margin-top: 200px;
+    height: 300px;
+    }
+h4{
+    padding-top:40px;
+    margin-left: 300px;
+}
+h2{
+    margin-left: 300px;
+}
+p{
+    margin-left: 300px;
+    overflow-y: scroll;
+}
+button{
+    margin-left: 300px;
+    border-radius:10px;
+    background-image: linear-gradient(to right bottom,yellow,orangered,red);
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to right bottom,yellow,orangered,red); 
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 50px;
+    border-radius: 10px;
+}

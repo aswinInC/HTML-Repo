@@ -1,0 +1,17 @@
+.be{
+    text-align: justify;
+    width: 500px;
+    height: 150px;
+    text-transform: capitalize;
+    line-height: 20px;
+    word-spacing: 2px;
+    color: brown;
+    text-indent: 20px;
+}
+h1{
+    text-decoration: underline;
+    color: blueviolet;
+}
+body{
+    background-color: rgb(165, 42, 122);
+}

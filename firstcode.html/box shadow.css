@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+.shadow_Content{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+.shadow_One{
+    flex: 1;
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    margin-top: 150px;
+    border-radius: 10px 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+.shadow_Two{
+    flex: 1;
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    margin-top: 150px;
+    border-radius: 10px 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+.shadow_Three{
+    flex: 1;
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    margin-top: 150px;
+    border-radius: 10px 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+.content{
+    background-image: linear-gradient(to right,yellow,red,green);
+    height: 5px;
+    width: 300px;
+}
+
+.one{
+    background-image: linear-gradient(to right,yellow,red,green);
+    height: 5px;
+    width: 300px;
+}
+.two{
+    background-image: linear-gradient(to right,yellow,red,green);
+    height: 5px;
+    width: 300px;
+}

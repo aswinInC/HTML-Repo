@@ -1,0 +1,49 @@
+body{
+      background-image: url("https://media.istockphoto.com/vectors/asbtract-background-website-landing-page-template-for-websites-or-vector-id1216681812?k=20&m=1216681812&s=612x612&w=0&h=xI6uLJ9S0mldd7rVXX0nHLmQBr9l4db1l2r4hMlyodE=");
+      background-repeat: no-repeat;
+      background-size: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.kishor{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.aswin{
+    display: none;
+}
+.kishor li:nth-child(3):hover .aswin{
+    display: block;
+}
+.kishor li:nth-child(1):hover .book{
+    display: block;
+}
+a{
+    background-color: rgb(33, 5, 133);
+    color: white;
+    width: 250px;
+    padding: 30px;
+    font-size: 25px;
+    display: block;
+}
+a:hover{
+    background-color: darkgoldenrod;
+}
+.book{
+    transform: translateX(310px)translateY(-1px);
+    position: absolute;
+    bottom: 0%;
+    display: none;
+}
+.aswin{
+    position:absolute ;
+
+}

@@ -1,0 +1,52 @@
+body{
+background-color: beige;
+}
+table{
+width: 100%;
+}
+table,th,td{
+border: 2px solid black;
+border: none;
+border-collapse: collapse;
+padding: 25px;
+text-align: center;
+}
+th{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+.z{
+background-color:rgb(254, 6, 6);
+color: white;
+}
+.z1{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+.z2{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+.z3{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+
+.z4{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+.z5{
+background-color: rgb(254, 6, 6);
+color: white;
+}
+.z6{
+background-color:rgb(254, 6, 6);
+color: white;
+}
+.row :nth-child(4){
+background-color: rgb(139, 8, 240);
+}
+tr:nth-child(even){
+background-color: rgb(37, 171, 77);
+}

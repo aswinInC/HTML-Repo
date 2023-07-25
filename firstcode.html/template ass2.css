@@ -1,0 +1,54 @@
+body{
+    background-image:linear-gradient(rgba(12,12,12,0.593),rgba(0,0,0,0.693)), url("https://i2.wp.com/www.csscodelab.com/wp-content/uploads/2020/02/pure-html-css-hexagon-gradient-background.png");
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+.List h1{
+    color: rgb(218, 10, 10);
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+}
+.list_Tag{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+.list_Tag a{
+    text-decoration: none;
+    color: rgb(207, 11, 11);
+}
+li a{
+    padding-right: 30px;
+}
+.content{
+    margin-top: 200px;
+    margin-left: 400px;
+    font-family: 'Caprasimo', cursive;
+    width: 500px;
+    padding: 20px 20px;
+}
+h3{
+    font-size: 2.2em;
+    text-align: center;
+}
+p{
+    padding-left: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+span{
+    color: rgb(186, 120, 15);
+}
+.content input{
+    margin-left: 170px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 34, 11);
+    color: rgb(205, 48, 27);
+    letter-spacing: 2px;
+    color: white;
+}
+
+

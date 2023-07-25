@@ -1,0 +1,35 @@
+div{
+    font-size: large;
+    }
+    .solid{
+    outline: solid 10px green;
+    margin: 50px;
+    }
+    .dashed{
+    outline: dashed 10px green;
+    margin: 50px;
+    }
+    .dotted{
+    outline: dotted 10px green;
+    margin: 50px;
+    }
+    .groove{
+    outline: groove 10px green;
+    margin: 50px;
+    }
+    .ridge{
+    outline: ridge 10px green;
+    margin: 50px;
+    }
+    .inset{
+    outline: inset 10px green;
+    margin: 50px;
+    }
+    .outset{
+    outline: outset 10px green;
+    margin: 50px;
+    }
+    .double{
+    outline: double 10px green;
+    margin: 50px;
+    }

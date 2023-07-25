@@ -1,0 +1,14 @@
+.imageClass{
+    cursor:all-scroll;
+    }
+    .paraClass:hover{
+    cursor: alias;
+    background-color: aquamarine;
+    }
+    a:hover{
+    color: rgb(242, 255, 0);
+    cursor: col-resize;
+    }
+    a{
+    text-decoration: none;
+    }

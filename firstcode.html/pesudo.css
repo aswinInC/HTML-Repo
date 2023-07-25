@@ -1,0 +1,22 @@
+a:hover{
+    color: green;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.one li:hover:first-child{
+  background-color: purple;
+}
+.one li:nth-child(3){
+    background-color: purple;
+}

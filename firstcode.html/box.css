@@ -1,0 +1,28 @@
+body{
+    text-align: justify;
+    width: 500px;
+    display: block;
+}
+.sec1{
+    background-color: yellow;
+    margin-top: 10px;
+}
+.sec2{
+    background-color: aqua;
+    padding: 25px;
+    margin-top: 10px;
+}
+.sec3{
+    background-color: blueviolet;
+    margin-top: 50px;
+}
+.sec4{
+    background-color: green;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.sec5{
+    background-color: green;
+    margin-top: 10px;
+    padding-right: 40px;
+}

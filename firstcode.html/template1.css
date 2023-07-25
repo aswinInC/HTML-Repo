@@ -1,0 +1,32 @@
+body{
+    /*background-image:url(https://t4.ftcdn.net/jpg/04/21/69/01/360_F_421690163_n8dbH57hhcJXqH75h50LbNsO69rhijkL.jpg);*/
+    background-image: linear-gradient(to left bottom,red,rgb(231, 231, 16));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+h1{
+    color: white;
+    position: absolute;
+}
+.list_Tag{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    color: white;
+    
+}
+.portfolio_Content{
+    color: white;
+    margin-top: 250px;
+    margin-left: 300px;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
+li{
+    padding: 10px;
+}
